@@ -5,7 +5,13 @@ En pocas palabras el data binding nos ayuda a vincular nuestras fuentes de datos
 
 Data binding soluciona los problemas de código repetitivo que tenemos que declarar al desarrollar nuestra aplicación.
 Lo primero que tenemos que hacer es habilitar data binding, este lo haremos en nuestro archivo gradle
-dataBinding{enable = true}
+
+```xml
+dataBinding {
+  enable = true
+}
+```
+
 
 Data binding necesita variables para poder funcionar, por ello es necesario agregar la sección de data
 
@@ -16,7 +22,8 @@ Data binding necesita variables para poder funcionar, por ello es necesario agre
 
 ```
 
-Dentro de esta etiqueta definimos la variable en la cual asignaremos su nombre y el paquete en el que pertenece nuestra fuente de datos
+Dentro de esta etiqueta definimos la variable en la cual asignaremos su nombre y el paquete en el que pertenece nuestra fuente de datos.
+<br/>
 Una vez definidas las variables podremos construir expresiones en nuestro layout
 Ejemplos:
 
