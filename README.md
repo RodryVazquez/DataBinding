@@ -18,7 +18,7 @@ Data binding necesita variables para poder funcionar, por ello es necesario agre
 
 Dentro de esta etiqueta definimos la variable en la cual asignaremos su nombre y el paquete en el que pertenece nuestra fuente de datos
 Una vez definidas las variables podremos construir expresiones en nuestro layout
-Ejemplos
+Ejemplos:
 
 ```xml
 android:text="@{String.valueOf(index + 1)}"
