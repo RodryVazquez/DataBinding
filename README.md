@@ -1,4 +1,4 @@
-Android Data Binding
+## Android Data Binding
 
 Ha pasado algun tiempo desde la última vez que escribí algo para Android, recientemente con la liberación Android 10 tras revisar uno de sus tantos ejemplos encontré una implementación en una aplicación con el uso de data binding.
 En pocas palabras el data binding nos ayuda a vincular nuestras fuentes de datos con los elementos de la interfaz de usuario declarados en los ficheros XML, el principal beneficio al utilizar esta técnica es que eliminaremos mucho código innecesario y nos permitirá enfocarnos en lo que realmente importa además de utilizar una forma declarativa.
