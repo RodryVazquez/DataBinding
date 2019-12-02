@@ -6,7 +6,7 @@
     <data>
         <variable
             name="mainActivityViewModel"
-            type="com.example.databinding.ViewModels.MainActivityViewModel" />
+            type="com.example.databinding.MainActivityViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -50,7 +50,7 @@
 
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/edtUserName"
-                android:text="@{mainActivityViewModel.userModelMutableLiveData.userName}"
+                android:text="@={mainActivityViewModel.userName}"
                 android:inputType="text"
                 android:hint="username"
                 android:fontFamily="sans-serif-condensed"
@@ -75,14 +75,14 @@
                 android:id="@+id/edtPassword"
                 android:inputType="textPassword"
                 android:hint="password"
-                android:text="@{mainActivityViewModel.userModelMutableLiveData.password}"
+                android:text="@={mainActivityViewModel.password}"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 app:layout_constraintTop_toBottomOf="@id/txtPassword"
                 app:layout_constraintBottom_toBottomOf="parent" />
             <Button
-                android:onClick="@{mainActivityViewModel.loginUser()}"
+                android:onClick="@{()-> mainActivityViewModel.loginUser()}"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="18dp"
@@ -94,7 +94,8 @@
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:text="El usuario o la contraseña son incorrectos"
+            android:id="@+id/txtErrorLegend"
+            android:text=""
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintRight_toRightOf="parent"
