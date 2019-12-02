@@ -51,6 +51,15 @@ En el ejemplo construiremos un Login sencillo con el uso de Data Binding.
 
 <br/>
 
+Los objetivos de la practica son los siguientes:
+
+- Habilitar Data binding en el proyecto
+- Maquetación del layout
+- Crear estructura del proyecto aplicando el patrón MVVM
+- Configuración del ViewModel con la vista
+- Aplicar validaciones
+- Hacer uso de los Binding Adapters para la simulacion del progress bar
+
 
 
 
