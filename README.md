@@ -44,9 +44,13 @@ android:onClick="@{() -> viewmodel.onLike()}"
 ```
 
 <br/>
-En el ejemplo construiremos un Login sencillo con el uso de ```Data Binding```.
+En el ejemplo construiremos un Login sencillo con el uso de Data Binding.
 <br/>
 
-![Login]()
+![](Login.png)
+
+<br/>
+
+
 
 
