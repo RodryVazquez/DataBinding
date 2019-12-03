@@ -59,7 +59,7 @@ Los objetivos de la practica son los siguientes:
 - Configuración del ViewModel con la vista
 - Aplicar validaciones
 - Hacer uso de los Binding Adapters para la simulacion del progress bar
+<br/>
 
-
-
+Happy coding !!!
 
