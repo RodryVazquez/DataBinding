@@ -6,7 +6,7 @@
     <data>
         <variable
             name="mainActivityViewModel"
-            type="com.example.databinding.MainActivityViewModel" />
+            type="com.example.databinding.ui.MainActivityViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -8,8 +8,9 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.example.databinding.Models.UserModel;
+import com.example.databinding.data.UserModel;
 import com.example.databinding.databinding.ActivityMainBinding;
+import com.example.databinding.ui.MainActivityViewModel;
 
 public class MainActivity extends AppCompatActivity {
 

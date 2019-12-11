@@ -1,8 +1,8 @@
-package com.example.databinding
+package com.example.databinding.ui
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.databinding.Models.UserModel
+import com.example.databinding.data.UserModel
 
 class MainActivityViewModel : ViewModel() {
     var userModelMutableLiveData: MutableLiveData<UserModel>

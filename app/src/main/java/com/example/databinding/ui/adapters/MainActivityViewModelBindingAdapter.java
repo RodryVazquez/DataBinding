@@ -1,11 +1,13 @@
-package com.example.databinding.Adapters;
+package com.example.databinding.ui.adapters;
 
 import android.view.View;
+
+import androidx.databinding.BindingAdapter;
 
 
 public class MainActivityViewModelBindingAdapter {
 
-    //@BindingAdapter("visible")
+    @BindingAdapter("visible")
     public static void setVisibility(View view, boolean visibility) {
         if (visibility) {
             view.setVisibility(View.VISIBLE);
