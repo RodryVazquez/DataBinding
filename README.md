@@ -4,7 +4,7 @@ Ha pasado algun tiempo desde la última vez que escribí algo para Android, reci
 En pocas palabras el data binding nos ayuda a vincular nuestras fuentes de datos con los elementos de la interfaz de usuario declarados en los ficheros XML, el principal beneficio al utilizar esta técnica es que eliminaremos mucho código innecesario y nos permitirá enfocarnos en lo que realmente importa además de utilizar una forma declarativa.
 
 Data binding soluciona los problemas de código repetitivo que tenemos que declarar al desarrollar nuestra aplicación.
-Lo primero que tenemos que hacer es habilitar data binding, este lo haremos en nuestro archivo gradle
+Lo primero que tenemos que hacer es habilitar data binding, este lo haremos en nuestro archivo gradle:
 
 ```xml
 dataBinding {
@@ -22,7 +22,7 @@ Data binding necesita variables para poder funcionar, por ello es necesario agre
 
 ```
 
-Dentro de esta etiqueta definimos la variable en la cual asignaremos su nombre y el paquete en el que pertenece nuestra fuente de datos.
+Dentro de esta etiqueta definimos la variable en la cual asignaremos el nombre y el paquete al que pertenece nuestra fuente de datos.
 <br/>
 Una vez definidas las variables podremos construir expresiones en nuestro layout
 Ejemplos:
@@ -42,3 +42,24 @@ android:visibility="@{viewmodel.nameVisible}"
 android:onClick="@{() -> viewmodel.onLike()}"
 
 ```
+
+<br/>
+En el ejemplo construiremos un Login sencillo con el uso de Data Binding.
+<br/>
+
+![](Login.png)
+
+<br/>
+
+Los objetivos de la practica son los siguientes:
+
+- Habilitar Data binding en el proyecto
+- Maquetación del layout
+- Crear estructura del proyecto aplicando el patrón MVVM
+- Configuración del ViewModel con la vista
+- Aplicar validaciones
+- Hacer uso de los Binding Adapters para la simulacion del progress bar
+<br/>
+
+Happy coding !!!
+
